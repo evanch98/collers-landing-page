@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Kanit } from 'next/font/google';
 import './globals.css';
+import { Navbar } from '@/components/header/navbar';
 
 const font = Kanit({
   subsets: ['latin'],
@@ -19,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body className={font.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
