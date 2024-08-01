@@ -14,7 +14,8 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontSize: {
-        '6xl': ['3.5', { letterSpacing: '110%' }],
+        '3xl': ['2rem', { letterSpacing: '110%' }],
+        '6xl': ['3.5rem', { letterSpacing: '110%' }],
       },
       colors: {
         amber: {
