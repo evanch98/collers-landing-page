@@ -8,7 +8,7 @@ export const Shoe = () => {
     <motion.div
       initial={{ scale: 0 }}
       animate={{ scale: 1, transition: { type: 'spring' } }}
-      className="relative size-[230px] rounded-[50px] bg-amber-400 sm:size-[302px] md:size-[367px]"
+      className="relative size-[230px] flex-shrink-0 rounded-[50px] bg-amber-400 sm:size-[302px] md:size-[367px]"
     >
       <motion.div
         initial={{ scale: 0 }}
