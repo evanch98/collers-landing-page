@@ -47,6 +47,18 @@ const config: Config = {
       screens: {
         '2xl': '1440px',
       },
+      boxShadow: {
+        'xs': '0 0 2px 0 rgb(0 0 0 / 0.07)',
+        'sm': '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 0 2px 0 rgb(0 0 0 / 0.07)',
+        'md': '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 0 4px 0 rgb(0 0 0 / 0.07)',
+        'lg': '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 0 6px 0 rgb(0 0 0 / 0.07)',
+        'xl': '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 0 10px 0 rgb(0 0 0 / 0.07)',
+        '2xl':
+          '0 25px 50px -12px rgb(0 0 0 / 0.25), 0 0 15px 0 rgb(0 0 0 / 0.07)',
+        'inner': 'inset 0 2px 4px 0 rgb(0 0 0 / 0.06)',
+        'light':
+          '0 25px 50px -12px rgb(255 255 255 / 0.25), 0 0 15px 0 rgb(255 255 255 / 0.07)',
+      },
     },
   },
   plugins: [],
