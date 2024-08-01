@@ -39,6 +39,9 @@ const bottomLineVariants = {
 };
 
 const sheetVariants = {
+  initial: {
+    x: '100%',
+  },
   open: {
     x: 0,
     transition: { duration: 0.3 },
@@ -133,6 +136,7 @@ export const Navbar = () => {
         </div>
         <motion.div
           variants={sheetVariants}
+          initial="initial"
           animate={isOpen ? 'open' : 'close'}
           className="absolute inset-0 flex h-screen w-full flex-col items-center gap-y-6 bg-amber-100 pt-60 text-2xl text-amber lg:hidden"
         >
