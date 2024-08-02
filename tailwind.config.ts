@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontSize: {
         '3xl': ['2rem', { letterSpacing: '110%' }],
+        '4xl': ['2.5rem', { letterSpacing: '110%' }],
         '6xl': ['3.5rem', { letterSpacing: '110%' }],
       },
       colors: {
