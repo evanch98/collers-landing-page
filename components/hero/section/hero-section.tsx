@@ -8,7 +8,7 @@ import { ClientProvider } from '@/providers/client-provider';
 export const HeroSection = () => {
   return (
     <ClientProvider>
-      <section className="flex h-screen w-full flex-col items-center justify-center">
+      <section className="flex h-screen w-full flex-col items-center justify-center overflow-hidden">
         <div className="flex h-full w-full max-w-screen-2xl flex-col items-center justify-center gap-8 px-2 sm:px-4 lg:flex-row lg:px-8 2xl:gap-32 2xl:px-16">
           <div className="flex flex-col items-center justify-center gap-y-8 lg:items-start lg:justify-start">
             <HeroText />
