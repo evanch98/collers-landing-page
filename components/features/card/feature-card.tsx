@@ -17,7 +17,7 @@ export const FeatureCard = ({
   return (
     <div
       className={cn(
-        'flex w-full max-w-sm flex-col items-center justify-center gap-y-4 lg:items-start lg:justify-start',
+        'flex w-full max-w-72 flex-col items-center justify-center gap-y-4 lg:items-start lg:justify-start xl:max-w-sm',
         className,
       )}
     >
