@@ -5,7 +5,7 @@ interface FeatureCardProps {
   icon: IconType;
   title: string;
   desc: string;
-  className: string;
+  className?: string;
 }
 
 export const FeatureCard = ({
