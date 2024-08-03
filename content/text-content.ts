@@ -45,3 +45,13 @@ export const products = [
     desc: 'Iconic collaboration, striking blue accents, and unmatched quality. A standout addition to any collection.',
   },
 ];
+
+export const benefits = {
+  title: 'Why join us',
+  benefits: [
+    'Be first to access rare sneaker releases.',
+    'Get tailored sneaker recommendations.',
+    'Enjoy special offers and discounts.',
+  ],
+  imgPath: '/assets/benefits-img.jpg',
+};
