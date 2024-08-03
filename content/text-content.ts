@@ -3,6 +3,14 @@ import {
   AiOutlineFire,
   AiOutlineFormatPainter,
 } from 'react-icons/ai';
+import {
+  SiAdidas,
+  SiJordan,
+  SiNewbalance,
+  SiNike,
+  SiPuma,
+  SiReebok,
+} from 'react-icons/si';
 
 export const HeroContent = {
   title: 'Collectible Sneakers',
@@ -105,4 +113,36 @@ export const gallery = {
     'https://images.pexels.com/photos/10050109/pexels-photo-10050109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     'https://images.pexels.com/photos/18328061/pexels-photo-18328061/free-photo-of-picture-of-the-legs-of-a-man-jumping.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   ],
+};
+
+export const galleryBrands = [
+  {
+    icon: SiJordan,
+    title: 'Air Jordan',
+  },
+  {
+    icon: SiNike,
+    title: 'Nike',
+  },
+  {
+    icon: SiAdidas,
+    title: 'Adidas',
+  },
+  {
+    icon: SiPuma,
+    title: 'Puma',
+  },
+  {
+    icon: SiNewbalance,
+    title: 'New Balance',
+  },
+  {
+    icon: SiReebok,
+    title: 'Reebok',
+  },
+];
+
+export const gallerySection = {
+  title: 'Grow your collection',
+  desc: 'Discover our top-selling brand catalog and expand your sneaker collection with the hottest and most sought-after styles. From classic designs to the latest releases, find the perfect pair to elevate your sneaker game.',
 };
