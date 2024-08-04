@@ -16,7 +16,7 @@ export const GallerySection = () => {
         </div>
         <GalleryMenu />
       </div>
-      <div className="3xl:h-[512px] absolute bottom-0 left-0 z-10 h-[372px] w-full min-w-[1440px]">
+      <div className="absolute bottom-0 left-0 z-10 h-[372px] w-full min-w-[1440px] 3xl:h-[512px]">
         <Image
           src="/assets/decorations/brown-wave.svg"
           alt="Wave decoration"
