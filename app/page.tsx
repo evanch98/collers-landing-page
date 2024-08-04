@@ -4,6 +4,7 @@ import { GallerySection } from '@/components/gallery/section/gallery-section';
 import { HeroSection } from '@/components/hero/section/hero-section';
 import { NumberSection } from '@/components/number/section/number-section';
 import { ProductsSection } from '@/components/products/section/products-section';
+import { TestimonialsSection } from '@/components/testimonials/section/testimonials-section';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BenefitsSection />
       <GallerySection />
       <NumberSection />
+      <TestimonialsSection />
     </main>
   );
 }
