@@ -1,3 +1,4 @@
+import { Testimonial } from '@/components/testimonials/carousel/testimonial-carousel';
 import {
   AiOutlineCheckCircle,
   AiOutlineFire,
@@ -146,3 +147,54 @@ export const gallerySection = {
   title: 'Grow your collection',
   desc: 'Discover our top-selling brand catalog and expand your sneaker collection with the hottest and most sought-after styles. From classic designs to the latest releases, find the perfect pair to elevate your sneaker game.',
 };
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    name: 'Alex R.',
+    city: 'New York',
+    imgPath: '/assets/users/alex.jpg',
+    testimony:
+      "Collers has the best selection of rare sneakers! I snagged a pair of limited edition Jordans and couldn't be happier.",
+  },
+  {
+    id: 2,
+    name: 'Jamie L.',
+    city: 'London',
+    imgPath: '/assets/users/jamie.jpg',
+    testimony:
+      'The custom design service at Collers is top-notch. I love my one-of-a-kind sneakers.',
+  },
+  {
+    id: 3,
+    name: 'Taylor M.',
+    city: 'Sydney',
+    imgPath: '/assets/users/taylor.jpg',
+    testimony:
+      "I've always been wary of buying sneakers online, but Collers' authenticity guarantee gave me peace of mind. 100% authentic, every time.",
+  },
+  {
+    id: 4,
+    name: 'Akari S.',
+    city: 'Tokyo',
+    imgPath: '/assets/users/akari.jpg',
+    testimony:
+      'The exclusive drops are amazing! I got early access to some of the hottest releases. Collers never disappoint.',
+  },
+  {
+    id: 5,
+    name: 'Jordan K.',
+    city: 'Berlin',
+    imgPath: '/assets/users/jordan.jpg',
+    testimony:
+      "Shopping at Collers is always a great experience. The personalized picks make it easy to find exactly what I'm looking for.",
+  },
+  {
+    id: 6,
+    name: 'Sam W.',
+    city: 'Toronto',
+    imgPath: '/assets/users/sam.jpg',
+    testimony:
+      "I've saved so much with the member discounts. Collers makes it easy to stay stylish without breaking the bank.",
+  },
+];
