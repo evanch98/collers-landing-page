@@ -59,6 +59,7 @@ const Dot = ({ x, y, delay }: DotProps) => (
     initial={{ scale: 0 }}
     whileInView={{ scale: 1 }}
     transition={{ duration: 0.2, delay: delay, type: 'spring' }}
+    viewport={{ once: true }}
   />
 );
 
