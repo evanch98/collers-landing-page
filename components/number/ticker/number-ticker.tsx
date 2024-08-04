@@ -5,6 +5,7 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion';
 
 import { cn } from '@/lib/utils';
 
+// Copied and Pasted from Magic UI - https://magicui.design/docs/components/number-ticker
 export default function NumberTicker({
   value,
   direction = 'up',
