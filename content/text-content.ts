@@ -225,3 +225,30 @@ export const articles = [
       'https://images.pexels.com/photos/2300334/pexels-photo-2300334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
 ];
+
+export const events = [
+  {
+    name: 'Sneaker Con',
+    location: 'New York',
+    imgPath:
+      'https://images.pexels.com/photos/2526878/pexels-photo-2526878.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+  {
+    name: 'Kick Expo',
+    location: 'Los Angeles',
+    imgPath:
+      'https://images.pexels.com/photos/1895943/pexels-photo-1895943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+  {
+    name: 'Sole Fest',
+    location: 'Chicago',
+    imgPath:
+      'https://images.pexels.com/photos/4088811/pexels-photo-4088811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+  {
+    name: 'Sneaker Jam',
+    location: 'Austin',
+    imgPath:
+      'https://images.pexels.com/photos/20476928/pexels-photo-20476928/free-photo-of-sneakers-a-basketball-and-an-analog-camera-lying-on-an-old-rug.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+];
