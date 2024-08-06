@@ -46,6 +46,7 @@ export const HeroText = ({ className }: HeroTextProps) => {
         'flex w-full flex-col gap-y-2 overflow-hidden text-center lg:text-left',
         className,
       )}
+      viewport={{ once: true }}
     >
       <motion.h1
         variants={titleVariants}
