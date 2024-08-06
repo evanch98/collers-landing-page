@@ -252,3 +252,103 @@ export const events = [
       'https://images.pexels.com/photos/20476928/pexels-photo-20476928/free-photo-of-sneakers-a-basketball-and-an-analog-camera-lying-on-an-old-rug.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
 ];
+
+export const footerContent = [
+  {
+    title: 'About',
+    links: [
+      'How It Works',
+      'Verification',
+      'Newsroom',
+      'Company',
+      'Careers',
+      'Collers Reviews',
+      'Give $10, Get $10',
+    ],
+  },
+  {
+    title: 'Help',
+    links: ['Help Center', 'Contact Us', 'Product Suggestions', 'Size Guide'],
+  },
+  {
+    title: 'Sell',
+    links: ['Selling Guide', 'Professional Tools', 'Scout', 'Developers'],
+  },
+  {
+    title: 'Air Jordan',
+    links: [
+      'Air Jordan 1',
+      'Air Jordan 3',
+      'Air Jordan 4',
+      'Air Jordan 11',
+      "Women's Jordan Shoes",
+      'Air Jordan 5',
+    ],
+  },
+  {
+    title: 'Adidas',
+    links: [
+      'Adidas Samba',
+      'Adidas Campus',
+      'Adidas Gazelle',
+      'Adidas Handball Spezial',
+      'Adidas AE',
+      'Adidas Yeezy',
+    ],
+  },
+  {
+    title: 'New Balance',
+    links: [
+      'New Balance 2002R',
+      'New Balance 327',
+      'New Balance 530',
+      'New Balance 550',
+      'New Balance 9060',
+      'New Balance Aimé Leon Dore',
+    ],
+  },
+  {
+    title: 'Nike',
+    links: [
+      'Nike Air Force 1',
+      'Nike Air Max 1',
+      'Nike Dunk',
+      'Nike SB',
+      "Women's Nike Dunks",
+      'Nike Vomero',
+    ],
+  },
+  {
+    title: 'Popular Releases',
+    links: [
+      "AJ1 Retro Low OG SP Travis Scott Canary (Women's)",
+      'AJ4 Retro Military Blue (2024)',
+      'AJ4 Retro Bred Reimagined',
+      'AJ 11 Retro Low Space Jam',
+      'AJ Jumpman Jack TR Travis Scott Sail',
+      'Supreme MM6 Maison Margiela Box Logo Tee White',
+    ],
+  },
+  {
+    title: 'Apparel',
+    links: [
+      'Denim Tears',
+      'Fear of God Essentials',
+      'Nike Tech Fleece',
+      'Supreme',
+      'Travis Scott',
+      'Yeezy GAP',
+    ],
+  },
+  {
+    title: 'Accessories',
+    links: [
+      'Swatch X Omega',
+      'Stanley',
+      'Designer Sunglasses',
+      'Louis Vuitton Accessories',
+      'Gucci Accessories',
+      'Supreme Accessories',
+    ],
+  },
+];
