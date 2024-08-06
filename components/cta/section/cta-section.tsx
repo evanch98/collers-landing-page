@@ -14,6 +14,7 @@ export const CtaSection = () => {
           transition: { duration: 0.5 },
         }}
         className="flex w-full flex-col items-center justify-center bg-slate-900"
+        viewport={{ once: true }}
       >
         <div className="flex w-full max-w-screen-2xl flex-col items-center gap-y-8 px-2 py-8 sm:px-4 sm:py-32 lg:flex-row lg:justify-between lg:px-8 2xl:px-16">
           <h1 className="text-center text-3xl font-semibold text-slate-50 sm:text-4xl md:text-6xl lg:text-left">
