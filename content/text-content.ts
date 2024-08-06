@@ -198,3 +198,30 @@ export const testimonials: Testimonial[] = [
       "I've saved so much with the member discounts. Collers makes it easy to stay stylish without breaking the bank.",
   },
 ];
+
+export const articles = [
+  {
+    title: 'Top 10 Rare Sneakers Every Collector Must Own',
+    desc: 'Discover the rarest, must-have sneakers for every collection.',
+    imgPath:
+      'https://images.pexels.com/photos/2385477/pexels-photo-2385477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+  {
+    title: 'How to Spot Fake Sneakers: A Complete Guide',
+    desc: 'Learn key tips to identify authentic vs. fake sneakers.',
+    imgPath:
+      'https://images.pexels.com/photos/1032110/pexels-photo-1032110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+  {
+    title: 'The Evolution of Sneaker',
+    desc: 'Explore the transformation of sneakers in fashion history.',
+    imgPath:
+      'https://images.pexels.com/photos/2048548/pexels-photo-2048548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+  {
+    title: 'Best Sneakers Care Tips to Keep Your Kicks Fresh',
+    desc: 'Essential advice for maintaining your sneakers.',
+    imgPath:
+      'https://images.pexels.com/photos/2300334/pexels-photo-2300334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+];
