@@ -1,5 +1,6 @@
 import { ArticlesSection } from '@/components/articles/section/articles-section';
 import { BenefitsSection } from '@/components/benefits/section/benefits-section';
+import { CtaSection } from '@/components/cta/section/cta-section';
 import { EventsSection } from '@/components/events/section/events-section';
 import { FeatureSection } from '@/components/features/section/feature-section';
 import { GallerySection } from '@/components/gallery/section/gallery-section';
@@ -20,6 +21,7 @@ export default function Home() {
       <TestimonialsSection />
       <ArticlesSection />
       <EventsSection />
+      <CtaSection />
     </main>
   );
 }
